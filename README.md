@@ -1,7 +1,7 @@
 # EcoTravel — Sustainable Travel & Nature Exploration
 
 > A premium, responsive multi-page corporate website for **EcoTravel**, a sustainable tourism and nature exploration company.
-> Built as **Task 7** of a Web Internship project.
+> Built as **Task 7** of the Web Internship project.
 
 ---
 
@@ -9,10 +9,10 @@
 
 | Page | File | Description |
 |------|------|-------------|
-| Home | `index.html` | Hero, core values (carbon offset, community, biodiversity), trending destinations, custom planning CTA |
-| About | `about.html` | Core mission & values, company background story, guiding principles (Leave No Trace, Local Empowerment, Active Restoration) |
-| Services | `services.html` | In-depth description of service offerings: guided eco-tours, sustainable lodging, carbon offsetting, local immersion |
-| Contact | `contact.html` | Communication channels, validation-backed contact form with real-time success alerts |
+| Home | [index.html](file:///d:/Web_Internship/synent-task7-harikrupaengineering-parth/index.html) | Hero, core values (carbon offset, community, biodiversity), trending destinations, custom planning CTA |
+| About | [about.html](file:///d:/Web_Internship/synent-task7-harikrupaengineering-parth/about.html) | Core mission & values, company background story, guiding principles (Leave No Trace, Local Empowerment, Active Restoration) |
+| Services | [services.html](file:///d:/Web_Internship/synent-task7-harikrupaengineering-parth/services.html) | In-depth description of service offerings: guided eco-tours, sustainable lodging, carbon offsetting, local immersion |
+| Contact | [contact.html](file:///d:/Web_Internship/synent-task7-harikrupaengineering-parth/contact.html) | Communication channels, validation-backed contact form with real-time success alerts |
 
 ---
 
@@ -25,13 +25,8 @@ synent-task7-harikrupaengineering-parth/
 ├── about.html          ← About Page
 ├── services.html       ← Services Page
 ├── contact.html        ← Contact Page
-│
-├── css/
-│   └── style.css       ← Styling sheet with responsive grids, typography, and flexbox
-│
-├── js/
-│   └── script.js       ← Mobile navbar toggle and contact form submission/validation
-│
+├── style.css           ← Main stylesheet (responsive grids, flexbox, typography)
+├── script.js           ← Mobile navbar toggle and contact form submission/validation
 └── README.md           ← This file
 ```
 
@@ -119,18 +114,18 @@ synent-task7-harikrupaengineering-parth/
 
 No build step or dependencies required. Simply open `index.html` locally:
 
+### Option 1: Direct File Open
+Open `index.html` in your web browser of choice.
+
+### Option 2: Live Server (Recommended)
+Use VS Code Live Server extension: right-click `index.html` → "Open with Live Server"
+
+### Option 3: Python Simple Server
+Run the following command in your terminal from the project root:
 ```bash
-# Option 1: Direct File Open
-Open d:\Web_Internship\synent-task7-harikrupaengineering-parth\index.html in your browser
-
-# Option 2: Live Server (Recommended)
-Use VS Code Live Server extension: right-click index.html → "Open with Live Server"
-
-# Option 3: Python Simple Server
-cd d:\Web_Internship\synent-task7-harikrupaengineering-parth
 python -m http.server 8080
-# Visit http://localhost:8080
 ```
+Then visit `http://localhost:8080` in your browser.
 
 ---
 
