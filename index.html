@@ -1,542 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Hari Krupa Engineering — Premier industrial engineering solutions provider. 15+ years of excellence in electrical, mechanical, automation, and maintenance services across India." />
-  <meta name="keywords" content="engineering company, industrial equipment, electrical engineering, mechanical engineering, automation, Maharashtra" />
-  <meta property="og:title" content="Hari Krupa Engineering | Industrial Engineering Excellence" />
-  <meta property="og:description" content="Premier engineering solutions provider with 500+ projects completed across industrial, electrical, and automation sectors." />
-  <meta property="og:type" content="website" />
-  <title>Hari Krupa Engineering | Industrial Engineering Excellence</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2316A34A'/><text y='.9em' font-size='70' x='15'>⚙</text></svg>" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTravel - Sustainable Travel & Nature Exploration</title>
+  <meta name="description" content="Discover breathtaking destinations while minimizing your ecological footprint and supporting local communities with EcoTravel.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Page Transition -->
-<div id="page-transition"></div>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.39l.04-.08c.53-1.07.72-2.18.57-3.23-.27-1.92-1.68-3.41-3.6-3.69-1.07-.15-2.19.04-3.26.58L2.5 15C2.18 14.07 2 13.06 2 12c0-4.97 3.65-9.1 8.44-9.87L11 3v2.09c0 .55.45 1 1 1s1-.45 1-1V3l.56-.09c4.79.77 8.44 4.9 8.44 9.87l-.09-.5c-.53-2.92-2.9-5.28-5.83-5.81-1.07-.19-2.18-.04-3.22.44l-.36.19V11c0 .55-.45 1-1 1s-1-.45-1-1V9.23L9.1 9.42c-.52.27-1.1.27-1.62 0L6 8.62v3.76c0 .55-.45 1-1 1s-1-.45-1-1V7.57l1.44.82c1 .57 2.12.57 3.12 0l1.44-.82V5.03L12 2z"/>
+        </svg>
+        <span>EcoTravel</span>
+      </a>
 
-<!-- =========================================================
-     NAVBAR
-     ========================================================= -->
-<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-  <div class="container navbar-inner">
-    <a href="index.html" class="navbar-logo" aria-label="Hari Krupa Engineering Home">
-      <div class="logo-mark" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.92c.04-.3.07-.62.07-.93s-.03-.64-.07-1l2.16-1.68c.2-.16.25-.46.12-.7l-2.04-3.53c-.12-.22-.38-.3-.6-.22l-2.55 1.03c-.53-.4-1.1-.74-1.72-.99L14.31 3.1C14.26 2.86 14 2.7 13.73 2.7h-3.46c-.27 0-.51.16-.56.42L9.37 5.49c-.62.25-1.19.59-1.72.99L5.1 5.45c-.22-.08-.48 0-.6.22L2.46 9.2c-.12.24-.07.54.12.7l2.16 1.68c-.04.36-.07.72-.07 1.08s.03.72.07 1.08L2.58 15.4c-.19.16-.24.46-.12.7l2.04 3.52c.12.22.38.3.6.22l2.55-1.02c.53.4 1.1.74 1.72.99l.39 2.8c.05.24.29.4.56.4h3.46c.27 0 .51-.16.56-.42l.39-2.8c.62-.25 1.19-.59 1.72-.99l2.55 1.02c.22.08.48 0 .6-.22l2.04-3.52c.12-.24.07-.54-.12-.7l-2.16-1.68z"/></svg>
-      </div>
-      <div class="logo-text">
-        <span class="logo-name">Hari Krupa Engineering</span>
-        <span class="logo-tagline">Engineering Excellence</span>
-      </div>
-    </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
 
-    <ul class="navbar-menu" role="list">
-      <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-      <li><a href="about.html" class="nav-link">About</a></li>
-      <li><a href="services.html" class="nav-link">Services</a></li>
-      <li><a href="contact.html" class="nav-link">Contact</a></li>
-    </ul>
-
-    <div class="navbar-actions">
-      <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 7a5 5 0 1 1 0 10A5 5 0 0 1 12 7zm0-5a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zm0 17a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0v-1a1 1 0 0 1 1-1zM4.22 5.64a1 1 0 0 1 1.42-1.42l.7.71a1 1 0 0 1-1.41 1.41l-.71-.7zm13.14 12.72a1 1 0 0 1 1.41 1.41l-.7.71a1 1 0 1 1-1.42-1.42l.71-.7zM3 12a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2H3zm17 0a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2h-1zM5.64 19.78a1 1 0 0 1-1.42-1.42l.71-.7a1 1 0 0 1 1.41 1.41l-.7.71zm12.72-13.14a1 1 0 0 1 1.41-1.41l.71.7a1 1 0 0 1-1.42 1.42l-.7-.71z"/></svg>
-      </button>
-      <a href="contact.html" class="btn-nav" id="nav-quote-btn">Get a Quote</a>
-      <button class="hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false">
-        <span></span><span></span><span></span>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
       </button>
     </div>
-  </div>
-</nav>
+  </header>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu" role="menu">
-  <a href="index.html" class="nav-link active" role="menuitem">Home</a>
-  <a href="about.html" class="nav-link" role="menuitem">About</a>
-  <a href="services.html" class="nav-link" role="menuitem">Services</a>
-  <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
-  <a href="contact.html" class="btn-nav" role="menuitem">Get a Quote</a>
-  <button class="dark-toggle" id="dark-toggle-mobile" aria-label="Toggle dark mode" style="width:auto;padding:10px 16px;border-radius:8px;gap:8px;font-size:14px;font-weight:500;">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px"><path d="M12 7a5 5 0 1 1 0 10A5 5 0 0 1 12 7z"/></svg>
-    Toggle Theme
-  </button>
-</div>
-
-<!-- =========================================================
-     HERO SECTION
-     ========================================================= -->
-<section class="hero" id="home" aria-label="Hero section">
-  <div class="hero-bg" aria-hidden="true">
-    <div class="hero-grid"></div>
-    <div class="hero-gradient"></div>
-    <div class="hero-particles"></div>
-  </div>
-
-  <div class="container hero-content">
-    <span class="hero-badge animate-fade-in">
-      <span class="hero-badge-dot" aria-hidden="true"></span>
-      Premier Engineering Solutions Since 2009
-    </span>
-
-    <h1 class="hero-title animate-fade-in" style="animation-delay:100ms">
-      Engineering the
-      <span class="accent">Future of Industry</span>
-    </h1>
-
-    <p class="hero-subtitle animate-fade-in" style="animation-delay:200ms">
-      Hari Krupa Engineering delivers world-class industrial, electrical, and automation solutions that power businesses across Maharashtra and beyond.
-    </p>
-
-    <div class="hero-actions animate-fade-in" style="animation-delay:300ms">
-      <a href="contact.html" class="btn btn-primary" id="hero-quote-btn">
-        <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2z"/></svg>
-        Get a Free Quote
-      </a>
-      <a href="contact.html" class="btn btn-outline" id="hero-contact-btn">
-        <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        Contact Us
-      </a>
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Explore the World, Leave Only Footprints</h1>
+      <p>Embark on unique journeys that respect the earth, support local cultures, and preserve natural habitats for generations to come.</p>
+      <a href="services.html" class="btn">Explore Our Services</a>
+      <a href="about.html" class="btn btn-secondary">Learn Our Mission</a>
     </div>
+  </section>
 
-    <!-- Hero Metrics -->
-    <div class="hero-metrics animate-fade-in" style="animation-delay:450ms;display:flex;gap:32px;margin-top:56px;flex-wrap:wrap;">
-      <div style="text-align:left">
-        <div style="font-size:28px;font-weight:900;color:#fff;font-family:'Playfair Display',serif;letter-spacing:-0.02em">500<span style="color:#22C55E">+</span></div>
-        <div style="font-size:12px;color:rgba(255,255,255,.5);letter-spacing:0.06em;text-transform:uppercase;font-weight:500">Projects Done</div>
-      </div>
-      <div style="width:1px;background:rgba(255,255,255,.1)"></div>
-      <div style="text-align:left">
-        <div style="font-size:28px;font-weight:900;color:#fff;font-family:'Playfair Display',serif;letter-spacing:-0.02em">200<span style="color:#22C55E">+</span></div>
-        <div style="font-size:12px;color:rgba(255,255,255,.5);letter-spacing:0.06em;text-transform:uppercase;font-weight:500">Happy Clients</div>
-      </div>
-      <div style="width:1px;background:rgba(255,255,255,.1)"></div>
-      <div style="text-align:left">
-        <div style="font-size:28px;font-weight:900;color:#fff;font-family:'Playfair Display',serif;letter-spacing:-0.02em">15<span style="color:#22C55E">+</span></div>
-        <div style="font-size:12px;color:rgba(255,255,255,.5);letter-spacing:0.06em;text-transform:uppercase;font-weight:500">Years Experience</div>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Travel with Purpose</h2>
+      <p class="section-subtitle">We build travel experiences that enrich both the explorer and the destination through ecological commitment.</p>
+      
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/>
+            </svg>
+          </div>
+          <h3>Low Carbon Impact</h3>
+          <p>We optimize transportation, promote active travel like hiking and biking, and invest in verified carbon offset programs.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+            </svg>
+          </div>
+          <h3>Community Support</h3>
+          <p>We work exclusively with local guides, stay in locally-owned lodges, and support community-led tourism initiatives.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <h3>Biodiversity Focus</h3>
+          <p>A portion of every booking goes directly to restoring habitats and protecting vulnerable native plant and animal species.</p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="hero-scroll" aria-label="Scroll to next section" role="button" tabindex="0">
-    <span>Scroll</span>
-    <div class="scroll-line" aria-hidden="true"></div>
-  </div>
-</section>
-
-<!-- =========================================================
-     STATS SECTION
-     ========================================================= -->
-<section class="stats-section" aria-label="Company statistics">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item reveal">
-        <div class="stat-icon" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        </div>
-        <div class="stat-number" data-target="500" id="counter-1">0<span class="suffix">+</span></div>
-        <div class="stat-label">Projects Completed</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-1">
-        <div class="stat-icon" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <div class="stat-number" data-target="200" id="counter-2">0<span class="suffix">+</span></div>
-        <div class="stat-label">Satisfied Clients</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-2">
-        <div class="stat-icon" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        </div>
-        <div class="stat-number" data-target="15" id="counter-3">0<span class="suffix">+</span></div>
-        <div class="stat-label">Years of Excellence</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-3">
-        <div class="stat-icon" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <div class="stat-number" data-target="98" id="counter-4">0<span class="suffix">%</span></div>
-        <div class="stat-label">Client Satisfaction</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =========================================================
-     SERVICES PREVIEW
-     ========================================================= -->
-<section class="section" id="services-preview" aria-label="Services overview">
-  <div class="container">
-    <header class="section-header">
-      <span class="section-badge">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.14 13.85"/><path d="M4.93 4.93A10 10 0 1 0 19.07 19.07"/></svg>
-        Our Services
-      </span>
-      <h2 class="section-title reveal">Engineering Solutions Built for <span class="highlight">Industry Leaders</span></h2>
-      <p class="section-desc reveal">From design and installation to maintenance and consulting, we offer end-to-end engineering services that keep your operations running at peak performance.</p>
-      <div class="section-divider reveal"></div>
-    </header>
-
-    <div class="services-grid">
-
-      <!-- Service 1 -->
-      <article class="service-card reveal">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-        </div>
-        <h3 class="service-card-title">Industrial Equipment Supply</h3>
-        <p class="service-card-desc">We source and supply certified industrial equipment, machinery, and components from leading global manufacturers — ensuring quality, reliability, and on-time delivery.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Industrial Equipment Supply">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-      <!-- Service 2 -->
-      <article class="service-card reveal reveal-delay-1">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        </div>
-        <h3 class="service-card-title">Electrical Engineering Solutions</h3>
-        <p class="service-card-desc">Complete electrical design, installation, testing and commissioning services for industrial plants, commercial buildings, and infrastructure projects of any scale.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Electrical Engineering">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-      <!-- Service 3 -->
-      <article class="service-card reveal reveal-delay-2">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.14 13.85M4.93 4.93A10 10 0 1 0 19.07 19.07"/></svg>
-        </div>
-        <h3 class="service-card-title">Mechanical Engineering Services</h3>
-        <p class="service-card-desc">Precision mechanical design, fabrication, erection, and alignment services for heavy machinery, piping systems, and structural steel work in industrial environments.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Mechanical Engineering">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-      <!-- Service 4 -->
-      <article class="service-card reveal reveal-delay-3">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
-        </div>
-        <h3 class="service-card-title">Automation Solutions</h3>
-        <p class="service-card-desc">Advanced PLC/SCADA programming, robotics integration, and intelligent process automation solutions that enhance production efficiency, safety, and output quality.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Automation Solutions">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-      <!-- Service 5 -->
-      <article class="service-card reveal reveal-delay-4">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-        </div>
-        <h3 class="service-card-title">Maintenance Services</h3>
-        <p class="service-card-desc">Scheduled preventive maintenance, emergency breakdown support, and annual maintenance contracts to minimise downtime and maximise the lifespan of your critical assets.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Maintenance Services">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-      <!-- Service 6 -->
-      <article class="service-card reveal reveal-delay-5">
-        <div class="service-icon-wrap" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-        </div>
-        <h3 class="service-card-title">Technical Consulting</h3>
-        <p class="service-card-desc">Expert advisory services including feasibility studies, energy audits, process optimization, and compliance consulting to help your business make informed engineering decisions.</p>
-        <a href="services.html" class="service-card-link" aria-label="Learn more about Technical Consulting">
-          Learn More
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-      </article>
-
-    </div>
-
-    <div style="text-align:center;margin-top:48px" class="reveal">
-      <a href="services.html" class="btn btn-secondary">
-        View All Services
-        <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- =========================================================
-     WHY CHOOSE US
-     ========================================================= -->
-<section class="section why-section" id="why-us" aria-label="Why choose us">
-  <div class="container">
-    <div class="why-grid">
-      <div class="why-visual reveal-left">
-        <div class="why-image-wrap">
-          <img src="assets/images/why-us.svg" alt="Hari Krupa Engineering team at work" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div style="display:none;width:100%;height:380px;background:linear-gradient(135deg,#DCFCE7,#BBF7D0);align-items:center;justify-content:center;flex-direction:column;gap:16px;color:#15803D">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.14 13.85M4.93 4.93A10 10 0 1 0 19.07 19.07"/></svg>
-            <span style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700">Precision Engineering</span>
+  <section class="section section-bg">
+    <div class="container">
+      <h2 class="section-title">Trending Eco-Destinations</h2>
+      <p class="section-subtitle">Explore pristine environments that prioritize conservation and sustainable hospitality practices.</p>
+      
+      <div class="grid-3">
+        <div class="dest-card">
+          <div class="dest-img">
+            <img src="https://images.unsplash.com/photo-1568393691622-c7ba131d63b6?auto=format&fit=crop&w=600&q=80" alt="Costa Rica Forest">
+          </div>
+          <div class="dest-content">
+            <span class="dest-tag">Adventure</span>
+            <h3>Costa Rica Cloud Forests</h3>
+            <p>Immerse yourself in lush canopy walks and biological reserves dedicated to preserving delicate tropical biodiversity.</p>
           </div>
         </div>
-        <div class="why-badge-float">
-          <div class="why-badge-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+
+        <div class="dest-card">
+          <div class="dest-img">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=600&q=80" alt="Patagonia Wilderness">
           </div>
-          <div class="why-badge-text">
-            <strong>ISO 9001:2015</strong>
-            <span>Certified Quality</span>
+          <div class="dest-content">
+            <span class="dest-tag">Hiking</span>
+            <h3>Patagonia Glaciers</h3>
+            <p>Traverse dramatic peaks and deep valleys under the guidance of certified mountain leave-no-trace wilderness experts.</p>
+          </div>
+        </div>
+
+        <div class="dest-card">
+          <div class="dest-img">
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Kyoto Nature">
+          </div>
+          <div class="dest-content">
+            <span class="dest-tag">Culture</span>
+            <h3>Kyoto Bamboo Groves</h3>
+            <p>Experience historical heritage routes that maintain traditional agricultural structures and protect regional wildlife corridors.</p>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="why-content reveal-right">
-        <div>
-          <span class="section-badge">Why Choose Us</span>
-          <h2 class="section-title" style="text-align:left;margin-top:16px">Your Trusted Partner in <span class="highlight">Engineering Excellence</span></h2>
-          <p style="font-size:16px;color:var(--text-secondary);line-height:1.8;margin-top:16px">
-            For over 15 years, Hari Krupa Engineering has been the preferred engineering partner for manufacturing companies, infrastructure developers, and industrial operators across Maharashtra.
-          </p>
-        </div>
+  <section class="section">
+    <div class="container">
+      <div class="card" style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <h2 style="color: #1b4332; margin-bottom: 16px;">Ready to Plan Your Next Escape?</h2>
+        <p style="color: #555e58; margin-bottom: 28px; font-size: 16px;">Get in touch with our sustainable travel specialists. We will help you design a customized itinerary that perfectly fits your travel goals and respects the environment.</p>
+        <a href="contact.html" class="btn">Create Custom Itinerary</a>
+      </div>
+    </div>
+  </section>
 
-        <ul class="why-list" aria-label="Our advantages">
-          <li class="why-item">
-            <div class="why-item-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <div>
-              <div class="why-item-title">Uncompromising Quality Assurance</div>
-              <div class="why-item-desc">Every project is executed under strict ISO 9001:2015 quality protocols with multi-stage inspection and sign-off procedures to guarantee zero-defect delivery.</div>
-            </div>
-          </li>
-          <li class="why-item">
-            <div class="why-item-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div>
-              <div class="why-item-title">On-Time Delivery — Every Time</div>
-              <div class="why-item-desc">Our structured project management approach, backed by dedicated site teams, ensures we deliver on schedule — even for complex, multi-disciplinary projects.</div>
-            </div>
-          </li>
-          <li class="why-item">
-            <div class="why-item-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <div>
-              <div class="why-item-title">Highly Qualified Expert Team</div>
-              <div class="why-item-desc">Our team of 80+ certified engineers and technicians bring deep domain expertise across electrical, mechanical, automation, and civil engineering disciplines.</div>
-            </div>
-          </li>
-          <li class="why-item">
-            <div class="why-item-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
-            </div>
-            <div>
-              <div class="why-item-title">Modern Technology & Innovation</div>
-              <div class="why-item-desc">We leverage advanced CAD/CAM design tools, Industry 4.0 automation platforms, and IoT-enabled monitoring to deliver future-ready engineering solutions.</div>
-            </div>
-          </li>
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>EcoTravel</h3>
+        <p>EcoTravel is dedicated to promoting sustainable tourism and nature exploration. Explore our planet while leaving only footprints behind.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact Us</h4>
+        <ul>
+          <li style="opacity: 0.8; font-size: 15px; margin-bottom: 12px;">info@ecotravel.local</li>
+          <li style="opacity: 0.8; font-size: 15px; margin-bottom: 12px;">+1 (555) 326-8728</li>
+          <li style="opacity: 0.8; font-size: 15px; margin-bottom: 12px;">12 Valley View Road, Cascade, CO</li>
         </ul>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- =========================================================
-     TESTIMONIALS
-     ========================================================= -->
-<section class="section" id="testimonials" aria-label="Client testimonials">
-  <div class="container">
-    <header class="section-header">
-      <span class="section-badge">Client Testimonials</span>
-      <h2 class="section-title reveal">Trusted by Industry <span class="highlight">Leaders</span></h2>
-      <p class="section-desc reveal">Hear from the companies that have experienced the Hari Krupa Engineering difference firsthand.</p>
-      <div class="section-divider reveal"></div>
-    </header>
-
-    <div class="testimonials-grid">
-
-      <article class="testimonial-card reveal">
-        <div class="star-rating" aria-label="5 out of 5 stars">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-        <p class="testimonial-text">"Hari Krupa Engineering completely transformed our manufacturing floor. Their automation team designed and installed a PLC-based control system that improved our production output by 34% while cutting energy consumption significantly. Exceptional technical expertise and professionalism throughout the project."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" aria-hidden="true">RS</div>
-          <div>
-            <div class="author-name">Rajesh Sharma</div>
-            <div class="author-role">Plant Director, Maharashtra Precision Industries Pvt. Ltd.</div>
-          </div>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-delay-2">
-        <div class="star-rating" aria-label="5 out of 5 stars">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-        <p class="testimonial-text">"We engaged Hari Krupa Engineering for the complete electrical infrastructure of our new warehouse complex in Pune. They delivered everything on time, within budget, and to an outstanding standard. Their site team was organised, safety-conscious, and responsive to our queries at every stage."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" aria-hidden="true">PM</div>
-          <div>
-            <div class="author-name">Priya Mehta</div>
-            <div class="author-role">Head of Infrastructure, Apex Logistics & Warehousing Ltd.</div>
-          </div>
-        </div>
-      </article>
-
-      <article class="testimonial-card reveal reveal-delay-4">
-        <div class="star-rating" aria-label="5 out of 5 stars">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-        <p class="testimonial-text">"The AMC (Annual Maintenance Contract) service from Hari Krupa Engineering has been outstanding. Their preventive maintenance schedules have virtually eliminated unplanned downtime at our chemical processing plant. We renewed for the third consecutive year — that says everything about their reliability."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" aria-hidden="true">AK</div>
-          <div>
-            <div class="author-name">Anil Kulkarni</div>
-            <div class="author-role">Operations Manager, Sahyadri Chemicals & Polymers</div>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- =========================================================
-     CTA SECTION
-     ========================================================= -->
-<section class="cta-section" id="cta" aria-label="Call to action">
-  <div class="container">
-    <div class="cta-inner reveal">
-      <span class="section-badge" style="background:rgba(255,255,255,.15);color:white;border:1px solid rgba(255,255,255,.2)">Start Your Project</span>
-      <h2 class="cta-title" style="margin-top:16px">Ready to Engineer Something<br>Extraordinary?</h2>
-      <p class="cta-desc">Tell us about your project requirements and our experts will get back to you within 24 hours with a tailored proposal.</p>
-      <div class="cta-actions">
-        <a href="contact.html" class="btn btn-white" id="cta-quote-btn">
-          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2z"/></svg>
-          Request a Quote
+    <div class="container footer-bottom">
+      <p>&copy; 2026 EcoTravel. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24">
+            <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"/>
+          </svg>
         </a>
-        <a href="tel:+912012345678" class="btn btn-outline-white" id="cta-call-btn">
-          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call +91 20 1234 5678
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24">
+            <path d="M23.953 4.57a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.06a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.936 4.936 0 0 0 4.604 3.417 9.867 9.867 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0 0 24 4.59z"/>
+          </svg>
         </a>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- =========================================================
-     FOOTER
-     ========================================================= -->
-<footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="footer-logo">
-          <div class="logo-mark">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="22" height="22"><path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.92c.04-.3.07-.62.07-.93s-.03-.64-.07-1l2.16-1.68c.2-.16.25-.46.12-.7l-2.04-3.53c-.12-.22-.38-.3-.6-.22l-2.55 1.03c-.53-.4-1.1-.74-1.72-.99L14.31 3.1C14.26 2.86 14 2.7 13.73 2.7h-3.46c-.27 0-.51.16-.56.42L9.37 5.49c-.62.25-1.19.59-1.72.99L5.1 5.45c-.22-.08-.48 0-.6.22L2.46 9.2c-.12.24-.07.54.12.7l2.16 1.68c-.04.36-.07.72-.07 1.08s.03.72.07 1.08L2.58 15.4c-.19.16-.24.46-.12.7l2.04 3.52c.12.22.38.3.6.22l2.55-1.02c.53.4 1.1.74 1.72.99l.39 2.8c.05.24.29.4.56.4h3.46c.27 0 .51-.16.56-.42l.39-2.8c.62-.25 1.19-.59 1.72-.99l2.55 1.02c.22.08.48 0 .6-.22l2.04-3.52c.12-.24.07-.54-.12-.7l-2.16-1.68z"/></svg>
-          </div>
-          <div class="logo-text">
-            <span class="logo-name">Hari Krupa Engineering</span>
-            <span class="logo-tagline">Engineering Excellence</span>
-          </div>
-        </a>
-        <p class="footer-desc">Premier industrial engineering solutions provider delivering electrical, mechanical, automation, and consulting services across Maharashtra since 2009.</p>
-        <div class="social-links" aria-label="Social media links">
-          <a href="#" class="social-link" aria-label="LinkedIn">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="Twitter/X">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="YouTube">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0A0F1A"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="footer-col-title">Quick Links</h3>
-        <nav class="footer-links" aria-label="Quick links">
-          <a href="index.html" class="footer-link">Home</a>
-          <a href="about.html" class="footer-link">About Us</a>
-          <a href="services.html" class="footer-link">Services</a>
-          <a href="contact.html" class="footer-link">Contact</a>
-          <a href="contact.html" class="footer-link">Get a Quote</a>
-        </nav>
-      </div>
-
-      <div>
-        <h3 class="footer-col-title">Services</h3>
-        <nav class="footer-links" aria-label="Services links">
-          <a href="services.html" class="footer-link">Equipment Supply</a>
-          <a href="services.html" class="footer-link">Electrical Engineering</a>
-          <a href="services.html" class="footer-link">Mechanical Engineering</a>
-          <a href="services.html" class="footer-link">Automation Solutions</a>
-          <a href="services.html" class="footer-link">Maintenance Services</a>
-          <a href="services.html" class="footer-link">Technical Consulting</a>
-        </nav>
-      </div>
-
-      <div>
-        <h3 class="footer-col-title">Contact</h3>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <span>Plot No. 47, MIDC Industrial Area, Satara Road, Pune – 411 043, Maharashtra, India</span>
-        </div>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.28h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <span>+91 20 1234 5678</span>
-        </div>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <span>info@harikrupaengineering.com</span>
-        </div>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span>Mon–Sat: 9:00 AM – 6:30 PM</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>&copy; 2024 Hari Krupa Engineering Pvt. Ltd. All rights reserved.</span>
-      <span>
-        <a href="#">Privacy Policy</a> &nbsp;·&nbsp;
-        <a href="#">Terms of Service</a> &nbsp;·&nbsp;
-        <a href="#">Sitemap</a>
-      </span>
-    </div>
-  </div>
-</footer>
-
-<!-- Back to Top -->
-<button id="back-to-top" aria-label="Back to top">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
-</button>
-
-<script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
